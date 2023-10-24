@@ -1,0 +1,113 @@
+.zec {
+    color: black;
+    width: 100%;
+  }
+  /* .zec thead {
+    background-color: rgb(27, 27, 110);
+  } */
+  .zec .holder {
+    background: rgb(17, 20, 47);
+    margin: 0;
+    padding-top: 20px;
+  }
+  .zec th {
+    text-align: center;
+    color: #fff;
+    padding: 10px; 
+    padding-left: auto;
+    padding-right: auto;
+    width: 0%;
+  }
+  .zec td:first-child, th:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* .zec th:last-child, td:last-child {
+    padding-right: 5px !important; 
+    padding-left: 5px;
+} */
+  .zec .board-name {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .zec .boardRows {
+    background-color: #fff;
+  }
+  .zec td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px 20px;
+  }
+  
+  .zec td:nth-child(2),th:nth-child(2) {
+    text-align: left;
+ 
+  }
+
+  .zec table {
+    border-collapse: collapse;
+    width: 100%;  
+     color: black;
+    border-collapse: separate;
+    border-spacing: 3px;
+    *border-collapse: expression("separate", cellSpacing = "5px");
+  }
+  .zec table,th,td,tr{
+    border: 0px !important;
+  }
+  .zec table,
+  th {
+    margin: auto;
+    text-align: center;
+    padding: 5px 5px;
+  }
+ 
+  .zec .sponsorimg1 {
+    content: url("https://firebasestorage.googleapis.com/v0/b/zec-codm.appspot.com/o/zec.jpg?alt=media&token=35dd795c-c26f-4b11-b5ae-53b4fab74d75");
+  }
+  .zec .scrypted1 {
+    content: url("https://firebasestorage.googleapis.com/v0/b/af-esports-insider.appspot.com/o/insiderWhite.png?alt=media&token=f0284a5f-8090-48af-a652-be809c5b9266");
+  }
+  .zec .sponsorimg3 {
+    margin-top: 0;
+    content: url("https://pbs.twimg.com/profile_images/1334058984026812416/-OG4PKEX.jpg");
+  }
+  .zecFooter {
+      background-color: #f2f2f200;
+  }
+  .scrypted {
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+  }
+  .scrypted img {
+    width: 100%;
+    float: left;
+    height: 90px;
+  }
+  .sponsor {
+    width: 90px;
+    float: right;
+    padding-right: 10px;
+    margin-top: 0px;
+  }
+  .sponsor img {
+    width: 100%; 
+    height: 90px;
+    float: right;
+  }
+  .streamer {
+    width: 100px;
+    float: right;
+    margin-top: 50px;
+  }
+  .streamer img {
+    width: 100%;
+    float: left;
+    height: 90px;
+    margin-right: 10%;
+  }
+  .sponsorimg3 {
+    margin-top: 20px;
+  }

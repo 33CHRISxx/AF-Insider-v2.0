@@ -1,0 +1,191 @@
+.pad-container {
+  display: grid;
+  grid-auto-rows: 2.7fr;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  max-width: 1248px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1264px) {
+  .pad-container {
+    max-width: 936px;
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .pad-container {
+    max-width: 624px;
+  }
+}
+
+.pad {
+  position: relative;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 14px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 280px;
+  grid-template-rows: 2fr 0.7fr;
+  width: 30%;
+  transition: 0.5s ease;
+  margin: 16px;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 640px) {
+  .pad {
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+
+  .pad-container {
+    grid-template-columns: calc(100% - 32px);
+    width: calc(100% - 32px);
+  }
+}
+
+.pad.light:nth-last-of-type(odd),
+.pad.dark:nth-last-of-type(even) {
+  --fore: white;
+  --back: rgba(18, 18, 49, 0.987);
+}
+
+.pad.light:nth-last-of-type(even),
+.pad.dark:nth-last-of-type(odd) {
+  --fore: black;
+  --back: black;
+}
+
+.pad:hover {
+  transform: scale(1.1);
+}
+
+.team {
+  display: flex;
+  align-items: center;
+}
+.team-logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: black;
+}
+.team-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.team-name {
+  margin: 0 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+.links *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.links a{
+    text-decoration: none;
+}
+.links{
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    place-items: center;
+    background: #000000 !important;
+    font-family: 'Nunito', sans-serif;
+}
+.links .container{
+    width: 30em;
+}
+.links .head__section img{
+    display: block;
+    margin: 0 auto;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.links .head__section p{
+    text-align: center;
+    color: #fff;
+}
+.links .social__links ul li{
+    width: 100%;
+    padding: 0.4rem 0.8rem;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 0px );
+    border-radius: 5px;
+    transition: background 0.25s;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+}
+.links .js-tilt-glare{
+    border-radius: 5px;
+}
+.links .social__links ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 1rem;
+}
+.links .social__links h3{
+color: white;
+font-size: 20px;
+}
+.links .social__links ul li a i{
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.4) translateZ(50px);
+    transition: 0.25s;
+}
+.links .social__links img{
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.8rem;
+  width: 50px;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+  transform: scale(1.4) translateZ(50px);
+  transition: 0.25s;
+}
+.links .social__links ul li a span{
+    line-height: 1.4rem;
+    margin-left: 20px;
+}
+.links .social__links ul .instagram:hover{
+    background: #fd5949;
+}
+.links .social__links ul .youtube:hover{
+    background:#FF0000;
+}
+.links .social__links ul .twitter:hover{
+    background:#0088cc;
+}
+.links .social__links ul .website:hover{
+    background: #48ff48a9;
+} 
+.links .social__links ul .playstore:hover{
+  background: #ffd400;
+} 
+.links .social__links ul .boardsider:hover{
+  background: #56157a;
+}
+.links .social__links ul .discord:hover{
+  background: #7272ff;
+}
+@media only screen and (max-width: 549px) {
+  .links .container{
+        width: 88vw;
+    }
+  }

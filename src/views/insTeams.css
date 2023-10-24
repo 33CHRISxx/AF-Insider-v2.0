@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.rila {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-gap: var(--g, 5%);
+  grid-template-columns: repeat(auto-fill, minmax(min(var(--m, 10rem), 100%), 1fr));
+}
+
+.rila .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rila .player-block {
+	cursor: pointer;
+	position: relative;
+  background: #ff3e3e;
+  background-image: linear-gradient(to bottom right, rgb(160, 49, 49) , rgb(0, 0, 0));
+  border-radius: 0.5rem;
+  height: 230px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.rila .player-block img{
+height: 230px;
+}
+ .player-block .name{
+		position: absolute;
+		bottom: 5px;
+		left: 10px;
+		font-weight: bolder;
+		background-image: linear-gradient(to bottom right, rgb(160, 49, 49) , rgb(0, 0, 0));
+}
+.player-block .role{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	font-weight: bolder;
+	text-decoration: double;
+}
+.player-block .logo img{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 40px;
+	height: 40px;
+}
+.player-block .social img{
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+}

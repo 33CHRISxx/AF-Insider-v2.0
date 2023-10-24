@@ -1,0 +1,21 @@
+ .collapsibleHeadOdd {
+  letter-spacing:2px;
+  background: #a8d406 ;
+  font-weight: bold;
+}
+.collapsibleHeadEven {
+  letter-spacing:2px;
+  padding: 20px;
+  background: #9a1a1a !important;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+ 
+ 
+  .accordion-head:hover{
+  background-color:  gold !important;
+  color: #8d248a ;
+}

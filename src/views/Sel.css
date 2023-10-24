@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+  .sel .titleS{
+    font-size:60px;
+    padding:20px 0px;
+  }
+  .sel .containerS{
+    max-width:900px;
+    margin:0px auto;
+  }
+  /* Float three columns side by side */
+  .sel .columnS {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .sel .rowS {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .sel .rowS:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 450px) {
+    
+    .sel .containerS{
+    width: 100%;
+  }
+    
+  .sel .columnS {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .sel .cardS {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    height:350px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(27, 27, 27, 0.465);
+    background-color: #000;
+    border-radius:10px;
+    cursor:pointer;
+  }
+  .sel .cardS .profileS{
+     border-radius:10px;
+     transition: 0.2s;
+  }
+  /* .sel .cardS:hover .profileS{
+    transform:scale(1.4);
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+  } */
+  .sel .cardS .contentS{
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  .sel .cardS .contentS .backS{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: rgba(68, 68, 68, 0.178);
+    transition:1s;
+    z-index:1;
+    padding:10px;
+  }
+  
+  .sel .from-leftS{
+    top:0;
+    left:-100%;
+  }
+  .sel .cardS:hover .contentS .from-leftS {
+     left:0%;
+  }
+  
+  .sel .from-bottomS{
+    top:100%;
+    left:0;
+  }
+  .sel .cardS:hover .contentS .from-bottomS {
+     top:0%;
+  }
+  
+  .sel .from-rightS{
+    top:0%;
+    right:-100%;
+  }
+  .sel .cardS:hover .contentS .from-rightS {
+     right:0;
+  }
+  
+  .sel .cardS .contentS .backS h3{
+      color: #fff;
+    font-size:15px;
+    letter-spacing:2px;
+  }
+  .sel .cardS .contentS .backS .tem-imgS{
+    border-radius:100%;
+  }
+  
+  .sel .cardS .contentS .backS .desS{
+    font-size:13px;
+    padding:20px 0px;
+  }
+  .sel .cardS .contentS .backS .social-iconS{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+  }
+  .sel .cardS .contentS .backS .social-iconS li{
+    display:inline-block;
+  }
+  
+  .sel .cardS .contentS .backS .social-iconS li a{
+    display:block;
+    background:#333;
+    color:#fff;
+    width:40px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    border-radius:100%;
+  }
+  
+  .sel .collapsibleHeadOdd {
+    letter-spacing:2px;
+    background: #a8d406 ;
+    font-weight: bold;
+  }
+  .sel .collapsibleHeadEven {
+    letter-spacing:2px;
+    background: #8d248a ;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .sel .collapsibleContent{
+    background: #0a0a0a;
+    margin-bottom: 50px;
+    color: white;
+  }
+.sel .collapsibleContent tr:nth-child(even) {
+  background-color: #000 !important;
+}
+   .sel  .accordion-head:hover{
+    background-color:  gold !important;
+    color: #8d248a ;
+  }
+
+  .sel .teamSocialIcon img{
+    max-width: 30px !important;
+    max-height: 30px !important;
+  }

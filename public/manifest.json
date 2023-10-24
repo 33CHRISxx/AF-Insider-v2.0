@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "AF ESPORTS INSIDER",
+  "icons": [
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/af-esports-insider.appspot.com/o/afInsider.jpg?alt=media&token=d3288d5a-1459-4b88-8d98-a93a26513ef4",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/af-esports-insider.appspot.com/o/afInsider.jpg?alt=media&token=d3288d5a-1459-4b88-8d98-a93a26513ef4",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/af-esports-insider.appspot.com/o/afInsider.jpg?alt=media&token=d3288d5a-1459-4b88-8d98-a93a26513ef4",
+      "type": "image/png",
+      "sizes": "512x512"
+    }	    
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

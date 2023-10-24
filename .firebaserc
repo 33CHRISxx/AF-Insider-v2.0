@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "af-esports-insider"
+  },
+  "targets": {
+    "af-esports-insider": {
+      "hosting": {
+        "demo": [
+          "liamdemo"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "af-insider",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://us-central1-af-esports-insider.cloudfunctions.net",
+  "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.19",
+    "@react-firebase/firestore": "^0.5.5",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "dir-glob": "2.0.0",
+    "express": "^4.17.1",
+    "fetch-jsonp": "^1.1.3",
+    "file-saver": "^2.0.5",
+    "firebase": "^8.3.1",
+    "firebase-admin": "^9.11.1",
+    "flickity": "^2.2.2",
+    "globby": "8.0.0",
+    "homepage": "",
+    "jquery": "^3.6.0",
+    "jsonp": "^0.2.1",
+    "lodash": "^4.17.21",
+    "node-sass": "^6.0.1",
+    "react": "^16.13.1",
+    "react-accessible-accordion": "^3.3.5",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-collapsible-component": "^1.3.4",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-google-charts": "^3.0.15",
+    "react-helmet": "^6.1.0",
+    "react-id-swiper": "^4.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-scroll-text": "^1.0.1",
+    "react-twitter-widgets": "^1.9.5",
+    "react-vanilla-tilt": "^1.0.0",
+    "rsuite": "^4.10.3",
+    "swiper": "^7.0.3",
+    "vanilla-tilt": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "winBuild": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
